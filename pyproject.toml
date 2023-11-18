@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "settings-tools"
+version = "0.1.0"
+description = ""
+authors = ["a.zholobova <zh.chabann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyqt6 = "*"
+pyqt-tools = "*"
+SQLAlchemy="2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
